@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>js pracice</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+  </head>
+  <body>
+    <div class="text-center py-5">
+      <!-- buld part start -->
+      <div class="buld">
+        <img id="myImage" src="boff.jpg" width="150" height="180" />
+        <button
+          onclick="changeImage()"
+          type="button"
+          class="btn btn-outline-warning"
+        >
+          on/off
+        </button>
+      </div>
+      <!-- buld part end -->
+      <!-- burger part start -->
+      <div class="py-5">
+        <div class="burger">
+          <img src="buntop.jpg" alt="" />
+          <div class="lettuce"></div>
+          <div class="patty"></div>
+          <div class="cheese"></div>
+          <img src="bunbottom.jpg" alt="" />
+        </div>
+
+        <div class="py-3">
+          <button onclick="addLettuce()" type="button" class="lettucebtn">
+            lettuce
+          </button>
+          <button onclick="addPatty()" type="button" class="Pattybtn">
+            Patty
+          </button>
+          <button onclick="addCheese()" type="button" class="cheesebtn">
+            Cheese
+          </button>
+        </div>
+      </div>
+      <!-- burger part end -->
+      <!-- icecream part start -->
+      <div class="py-5">
+        <div class="icecream">
+          <div class="mix"></div>
+          <div class="cherry"></div>
+          <div class="vanilla"></div>
+
+          <img src="cone.jpg" alt="cone" />
+        </div>
+        <div class="py-3">
+          <button onclick="addVanilla()" type="button" class="vanillabtn">
+            vanilla
+          </button>
+          <button onclick="addCherry()" type="button" class="cherrybtn">
+            Cherry
+          </button>
+        </div>
+      </div>
+      <!-- icecream part end -->
+      <!-- day&night part start -->
+      <div class="buld">
+        <img id="day" src="day.jpg" width="250" height="200" />
+        <button onclick="changetime()" type="button" class="d&n">
+          Day/night
+        </button>
+      </div>
+      <!-- day&night part end -->
+    </div>
+
+    <script src="js/script.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
